@@ -54,7 +54,7 @@ $("[animation=fade-overflow]").each(function (index) {
   tl.from(
     target,
     {
-      y: "100%",
+      y: "20rem",
       opacity: 0,
       ease: "Quint.easeOut",
       duration: 1,
