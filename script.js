@@ -42,50 +42,28 @@ function pageLoad() {
 
 pageLoad();
 
+$("[animation=fade-overflow]").each(function (index) {
+  let target = $(this);
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: $(this),
+      start: "bottom bottom -=100",
+    },
+  });
+
+  tl.from(
+    target,
+    {
+      y: "100%",
+      opacity: 0,
+    },
+    0
+  );
+});
+
 // slider products
 document.addEventListener("DOMContentLoaded", function () {
   let splide = new Splide(".is--slider-products", {
-    type: "slide",
-    perPage: 1,
-    perMove: 1,
-    gap: "24rem",
-    drag: false,
-    arrows: false,
-    pagination: false,
-    breakpoints: {
-      991: {
-        // Tablet
-        gap: "24rem",
-        drag: true,
-      },
-    },
-  });
-  splide.mount();
-});
-
-// slider testimonials
-document.addEventListener("DOMContentLoaded", function () {
-  let splide = new Splide(".is--testimonial-slider", {
-    type: "slide",
-    perPage: 1,
-    perMove: 1,
-    gap: "24rem",
-    drag: false,
-    arrows: false,
-    pagination: false,
-    breakpoints: {
-      991: {
-        // Tablet
-        gap: "24rem",
-        drag: true,
-      },
-    },
-  });
-  splide.mount();
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  let splide = new Splide(".slider-resources", {
     type: "slide",
     perPage: 1,
     perMove: 1,
