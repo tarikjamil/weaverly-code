@@ -61,6 +61,25 @@ $("[animation=fade-overflow]").each(function (index) {
   );
 });
 
+$("[animation=fade]").each(function (index) {
+  let target = $(this);
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: $(this),
+      start: "bottom bottom -=100",
+    },
+  });
+
+  tl.from(
+    target,
+    {
+      y: "20rem",
+      opacity: 0,
+    },
+    0
+  );
+});
+
 // slider products
 document.addEventListener("DOMContentLoaded", function () {
   let splide = new Splide(".is--slider-products", {
