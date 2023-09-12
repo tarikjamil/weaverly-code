@@ -56,6 +56,8 @@ $("[animation=fade-overflow]").each(function (index) {
     {
       y: "100%",
       opacity: 0,
+      ease: "Quint.easeOut",
+      duration: 1,
     },
     0
   );
@@ -75,6 +77,8 @@ $("[animation=fade]").each(function (index) {
     {
       y: "20rem",
       opacity: 0,
+      ease: "Quint.easeOut",
+      duration: 1,
     },
     0
   );
