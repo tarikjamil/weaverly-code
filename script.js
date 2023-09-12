@@ -47,7 +47,7 @@ $("[animation=fade-overflow]").each(function (index) {
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: $(this),
-      start: "bottom bottom -=100",
+      start: "top bottom -=200",
     },
   });
 
@@ -66,7 +66,7 @@ $("[animation=fade]").each(function (index) {
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: $(this),
-      start: "bottom bottom -=100",
+      start: "top bottom -=200",
     },
   });
 
