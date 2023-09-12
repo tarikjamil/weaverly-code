@@ -1,0 +1,14 @@
+.main-wrapper {
+  opacity: 0;
+}
+
+.navbar.is--scrolled {
+}
+
+.splide__track {
+  overflow: visible;
+}
+
+.splide__slide {
+  align-self: stretch;
+}
