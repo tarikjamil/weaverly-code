@@ -1,26 +1,3 @@
-// split type
-let text;
-// Split the text up
-function runSplit() {
-  text = new SplitType("[animation=loading-split]", {
-    types: "lines, words",
-    lineClass: "overflow-hidden",
-    wordClass: "loading-animation-split",
-  });
-}
-
-runSplit();
-
-// Update on window resize
-let windowWidth = $(window).innerWidth();
-window.addEventListener("resize", function () {
-  if (windowWidth !== $(window).innerWidth()) {
-    windowWidth = $(window).innerWidth();
-    text.revert();
-    runSplit();
-  }
-});
-
 gsap.registerPlugin(ScrollTrigger);
 
 // On Page Load
@@ -64,31 +41,6 @@ function pageLoad() {
 }
 
 pageLoad();
-
-// navbar color
-$(document).ready(function () {
-  var scrollTop = 0;
-  $(window).scroll(function () {
-    scrollTop = $(window).scrollTop();
-    if (scrollTop >= 50) {
-      $(".navbar").addClass("is--scrolled");
-    } else if (scrollTop < 50) {
-      $(".navbar").removeClass("is--scrolled");
-    }
-  });
-});
-
-// navbar menu background click
-$(".navbar--menu--bg").on("click", function () {
-  $(".navbar--menu-close").click();
-});
-
-// navbar use cases dropdown
-
-$(".navbar--usecases-dropdown").on("click", function () {
-  $(".navbar--usecases-dropdown").toggleClass("is--active");
-  $(".navbar--dropwdown-text-wrapper").toggleClass("is--active");
-});
 
 // slider products
 document.addEventListener("DOMContentLoaded", function () {
