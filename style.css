@@ -9,3 +9,8 @@
 .splide__slide {
   align-self: stretch;
 }
+
+.w-richtext figure.w-richtext-align-fullwidth > div {
+  padding-bottom: inherit;
+  display: block;
+}
