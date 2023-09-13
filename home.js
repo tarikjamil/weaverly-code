@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       991: {
         // Tablet
         gap: "24rem",
-        drag: true,
+        pagination: true,
       },
     },
   });
