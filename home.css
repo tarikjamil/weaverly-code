@@ -1,0 +1,16 @@
+.splide__pagination {
+  padding: 0;
+}
+
+.splide__pagination__page {
+  width: 8rem;
+  height: 8rem;
+  border-color: #fffdfa;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #fffdfa;
+}
