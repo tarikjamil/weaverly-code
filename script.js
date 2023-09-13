@@ -84,21 +84,19 @@ $("[animation=fade]").each(function (index) {
   );
 });
 
-// slider products
 document.addEventListener("DOMContentLoaded", function () {
-  let splide = new Splide(".is--slider-products", {
+  let splide = new Splide(".is--home-numbers", {
     type: "slide",
     perPage: 1,
     perMove: 1,
     gap: "24rem",
-    drag: false,
     arrows: false,
     pagination: false,
     breakpoints: {
       991: {
         // Tablet
         gap: "24rem",
-        drag: true,
+        pagination: true,
       },
     },
   });
