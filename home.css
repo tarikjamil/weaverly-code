@@ -1,5 +1,6 @@
 .splide__pagination {
   padding: 0;
+  column-gap: 8rem;
 }
 
 .splide__pagination__page {
@@ -9,6 +10,8 @@
   border-width: 1px;
   border-style: solid;
   background-color: transparent;
+  border-radius: 100rem;
+  padding: 0;
 }
 
 .splide__pagination__page.is-active {
