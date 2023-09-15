@@ -1,0 +1,22 @@
+.splide__pagination {
+  padding: 0;
+  column-gap: 8rem;
+  bottom: 20rem;
+  position: absolute;
+  width: 100%;
+}
+
+.splide__pagination__page {
+  width: 8rem;
+  height: 8rem;
+  border-color: #fffdfa;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  border-radius: 100rem;
+  padding: 0;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #fffdfa;
+}
