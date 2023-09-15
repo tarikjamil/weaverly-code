@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
   textFields.forEach(function (field) {
     // When the text field is focused
     field.addEventListener("focus", function () {
-      var label = this.closest(".w-layout-vflex").querySelector(".form--label");
+      var label = this.closest(".relative").querySelector(".form--label");
       if (label) {
         label.classList.add("is--active");
       }
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // When the text field loses focus
     field.addEventListener("blur", function () {
-      var label = this.closest(".w-layout-vflex").querySelector(".form--label");
+      var label = this.closest(".relative").querySelector(".form--label");
       if (label) {
         label.classList.remove("is--active");
       }
