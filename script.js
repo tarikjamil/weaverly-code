@@ -118,9 +118,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // When the text field loses focus
     field.addEventListener("blur", function () {
-      var label = this.closest(".relative").querySelector(".form--label");
-      if (label) {
-        label.classList.remove("is--active");
+      // Check if the input field is empty
+      if (this.value.trim() === "") {
+        var label = this.closest(".relative").querySelector(".form--label");
+        if (label) {
+          label.classList.remove("is--active");
+        }
       }
     });
   });
