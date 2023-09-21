@@ -128,3 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+$(".button.is--navbar.is--last").on("click", function () {
+  $(".menu--link").click();
+});
