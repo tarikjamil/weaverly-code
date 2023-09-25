@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+.is--home-outside .splide__pagination {
+  padding-right: 20rem;
+  padding-bottom: 8rem;
+}
+
 .splide__pagination__page {
   width: 8rem;
   height: 8rem;
