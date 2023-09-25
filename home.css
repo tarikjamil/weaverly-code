@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.is--home-outside .splide__pagination {
+.splide.is--home-outside .splide__pagination {
   padding-right: 20rem;
   padding-bottom: 8rem;
 }
