@@ -37,3 +37,7 @@ select:-webkit-autofill:focus {
 }
 
 /* Adjust for your desired background color. The above uses 'white'. */
+
+.is--clicked {
+  color: black;
+}
