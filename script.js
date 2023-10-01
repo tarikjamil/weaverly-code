@@ -133,7 +133,7 @@ $(".button.is--navbar.is--last").on("click", function () {
   $(".menu--link").click();
 });
 
-$(".menu--icon-close").on("click", function () {
+$(".menu--link").on("click", function () {
   $(this).toggleClass("is--clicked");
   $(".navbar-logo-link").toggleClass("is--clicked");
 });
