@@ -44,8 +44,8 @@ function updateScrollingSpeed() {
   });
 }
 
-// Call initially
-updateScrollingSpeed();
+// Update on window load to ensure images are loaded
+window.onload = updateScrollingSpeed;
 
 // Update on window resize
 window.addEventListener("resize", updateScrollingSpeed);
