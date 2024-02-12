@@ -15,3 +15,10 @@
 .w-slider-dot .w-active {
   background-color: white !important;
 }
+
+@media screen and (max-width: 767px) {
+  .w-slider-dot {
+    width: 8rem !important;
+    height: 8rem !important;
+  }
+}
