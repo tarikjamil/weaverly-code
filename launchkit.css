@@ -9,6 +9,7 @@
   position: relative;
   border-color: white;
   border-width: 1px;
+  border-style: solid;
 }
 
 .w-slider-dot .w-active {
