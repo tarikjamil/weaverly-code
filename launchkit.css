@@ -1,0 +1,16 @@
+.w-slider-dot {
+  width: 16rem !important;
+  height: 16rem !important;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 0rem !important;
+  transition: background-color 0.1s, color 0.1s;
+  display: inline-block;
+  position: relative;
+  border-color: white;
+  border-width: 1px;
+}
+
+.w-slider-dot .w-active {
+  background-color: white !important;
+}
