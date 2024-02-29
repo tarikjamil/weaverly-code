@@ -1,4 +1,5 @@
-.w-slider-dot {
+.w-slider-dot,
+.swiper-pagination-bullet {
   width: 16rem !important;
   height: 16rem !important;
   cursor: pointer;
@@ -12,12 +13,14 @@
   border-style: solid;
 }
 
-.w-slider-dot .w-active {
+.w-slider-dot .w-active,
+.swiper-pagination-bullet-active {
   background-color: white !important;
 }
 
 @media screen and (max-width: 767px) {
-  .w-slider-dot {
+  .w-slider-dot,
+  .swiper-pagination-bullet {
     width: 8rem !important;
     height: 8rem !important;
   }
