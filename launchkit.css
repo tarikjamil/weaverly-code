@@ -22,6 +22,7 @@
   height: 80rem;
   margin-top: 24rem;
   margin-bottom: 24rem;
+  width: 100vw;
 }
 
 .is--testimonial-slider .swiper-pagination {
