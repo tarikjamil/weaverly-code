@@ -1,3 +1,9 @@
+$(".is--work-slider").append(`
+    <div class="swiper-pagination">
+        
+    </div>
+`);
+
 const swiper = new Swiper(".is--work-slider", {
   direction: "horizontal",
   slidesPerView: 1,
