@@ -18,6 +18,10 @@
   display: flex;
   justify-content: center;
   column-gap: 8rem;
+  align-items: center;
+  height: 80rem;
+  margin-top: 24rem;
+  margin-bottom: 24rem;
 }
 
 .w-slider-dot .w-active,
