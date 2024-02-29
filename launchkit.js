@@ -3,7 +3,7 @@ const swiper = new Swiper(".is--work-slider", {
   slidesPerView: 1,
   slidesPerGroup: 1,
   spaceBetween: "24rem",
-  loop: false,
+  loop: true,
   centeredSlides: false,
 
   // If we need pagination
