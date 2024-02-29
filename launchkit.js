@@ -7,7 +7,7 @@ $(".is--work-slider").append(`
 const swiper = new Swiper(".is--work-slider", {
   direction: "horizontal",
   slidesPerView: 1,
-  slidesPerGroup: 8,
+  slidesPerGroup: 1,
   spaceBetween: "24rem",
   loop: true,
   centeredSlides: false,
