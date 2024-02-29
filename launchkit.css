@@ -24,6 +24,11 @@
   margin-bottom: 24rem;
 }
 
+.is--testimonial-slider .swiper-pagination {
+  margin-bottom: 0rem;
+  margin-top: 40rem;
+}
+
 .w-slider-dot .w-active,
 .swiper-pagination-bullet-active {
   background-color: white !important;
