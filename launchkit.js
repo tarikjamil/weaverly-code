@@ -43,7 +43,7 @@ const swiper = new Swiper(".is--work-slider", {
   },
 });
 
-const swiper = new Swiper(".is--testimonial-slider", {
+const swiper2 = new Swiper(".is--testimonial-slider", {
   direction: "horizontal",
   slidesPerView: 1,
   slidesPerGroup: 1,
