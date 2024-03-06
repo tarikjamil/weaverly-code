@@ -41,4 +41,13 @@
     width: 8rem !important;
     height: 8rem !important;
   }
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    column-gap: 8rem;
+    align-items: center;
+    height: auto;
+    margin-top: 16rem;
+    margin-bottom: 16rem;
+  }
 }
