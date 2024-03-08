@@ -41,3 +41,7 @@ select:-webkit-autofill:focus {
 .is--clicked {
   color: black;
 }
+
+.navbar-logo-link.is--open {
+  color: black;
+}
