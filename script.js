@@ -128,3 +128,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// --------------------- menu color change logo --------------------- //
+
+$(".is--launchbrand").on("click", function () {
+  $(".launchkit--tab:nth-child(1)").click();
+});
+
+$(".is--launchwebsite").on("click", function () {
+  $(".launchkit--tab:nth-child(2)").click();
+});
