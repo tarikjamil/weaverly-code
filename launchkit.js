@@ -94,3 +94,11 @@ window.onload = updateScrollingSpeed;
 
 // Update on window resize
 window.addEventListener("resize", updateScrollingSpeed);
+
+$(".is--launchbrand").on("click", function () {
+  $(".launchkit--tab:nth-child(1)").click();
+});
+
+$(".is--launchwebsite").on("click", function () {
+  $(".launchkit--tab:nth-child(2)").click();
+});
