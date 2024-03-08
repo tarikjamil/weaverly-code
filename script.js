@@ -131,10 +131,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // --------------------- menu color change logo --------------------- //
 
-$(".is--launchbrand").on("click", function () {
-  $(".launchkit--tab:nth-child(1)").click();
+$(".menu--link, .button.is--getstartednav").click(function () {
+  $(".navbar-logo-link").addClass("is--open");
 });
 
-$(".is--launchwebsite").on("click", function () {
-  $(".launchkit--tab:nth-child(2)").click();
+// Remove class .is--open when .menu--trigger-close is clicked
+$(".menu--trigger-close").click(function () {
+  $(".navbar-logo-link").removeClass("is--open");
 });
