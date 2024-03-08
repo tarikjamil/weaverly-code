@@ -60,3 +60,13 @@ $(".richtext-outcomes *").each(function (index) {
     0
   );
 });
+
+// Add class .is--open when .menu--link or .button.is--getstartednav is clicked
+$(".menu--link, .button.is--getstartednav").click(function () {
+  $(".navbar-logo-link").addClass("is--open");
+});
+
+// Remove class .is--open when .menu--trigger-close is clicked
+$(".menu--trigger-close").click(function () {
+  $(".navbar-logo-link").removeClass("is--open");
+});

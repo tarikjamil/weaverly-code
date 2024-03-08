@@ -2,3 +2,7 @@
   height: auto;
   display: flex;
 }
+
+.navbar-logo-link.is--open {
+  color: black;
+}
