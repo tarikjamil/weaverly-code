@@ -131,11 +131,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // --------------------- menu color change logo --------------------- //
 
-$(".menu--link, .button.is--getstartednav").click(function () {
-  $(".navbar-logo-link").addClass("is--open");
+$(".menu--link").click(function () {
+  $(".navbar-logo-link").addClass("is--open-menu");
+});
+
+$(".button.is--getstartednav").click(function () {
+  $(".navbar-logo-link").addClass("is--open-getstartednav");
 });
 
 // Remove class .is--open when .menu--trigger-close is clicked
-$(".menu--trigger-close").click(function () {
-  $(".navbar-logo-link").removeClass("is--open");
+$(".menu--trigger-close.is--menu").click(function () {
+  $(".navbar-logo-link").removeClass("is--open-menu");
+});
+
+$(".menu--trigger-close.is--getstarted").click(function () {
+  $(".navbar-logo-link").removeClass("is--open-getstartednav");
 });

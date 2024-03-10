@@ -42,6 +42,10 @@ select:-webkit-autofill:focus {
   color: black;
 }
 
-.navbar-logo-link.is--open {
+.navbar-logo-link.is--open-menu {
+  color: black;
+}
+
+.navbar-logo-link.is--open-getstartednav {
   color: black;
 }
